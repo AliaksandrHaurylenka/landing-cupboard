@@ -3,7 +3,7 @@
 return [
 	
 	'user-management' => [
-		'title' => 'User management',
+		'title' => 'Пользователи',
 		'fields' => [
 		],
 	],
@@ -16,11 +16,11 @@ return [
 	],
 	
 	'users' => [
-		'title' => 'Users',
+		'title' => 'Администратор',
 		'fields' => [
-			'name' => 'Name',
+			'name' => 'Имя',
 			'email' => 'Email',
-			'password' => 'Password',
+			'password' => 'Пароль',
 			'role' => 'Role',
 			'remember-token' => 'Remember token',
 		],

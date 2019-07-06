@@ -1,9 +1,11 @@
 <?php
-  /*Route::get('/', function () {
-    return view('welcome');
-  });*/
-//Route::get('/', function () { return redirect('/admin/home'); });
-Route::get('/', 'LandingController@index')->name('landing');
+Route::group(['middleware'=>'web'], function(){
+  Route::match(['get', 'post'], '/', ['uses'=>'LandingController@index', 'as'=>'home']);
+//  Route::get('/page/{alias}',['uses'=>'PageController@execute','as'=>'page']);
+
+//  Route::auth();
+});
+//Route::get('/', 'LandingController@index')->name('landing');
 
 // Authentication Routes...
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');

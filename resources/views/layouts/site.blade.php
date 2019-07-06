@@ -9,10 +9,10 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <link href="{{ asset('css/mdb.min.css') }}" rel="stylesheet">
-  <link rel="icon" href="{{ asset('assets/favicon.ico') }}">
+  <link href="{{ asset('assets/css/mdb.min.css') }}" rel="stylesheet">
+  <link rel="icon" href="{{ asset('favicon.ico') }}">
 
   <style>
     html,
@@ -898,8 +898,8 @@
 <!-- Footer -->
 
 <!--  SCRIPTS  -->
-<script src="{{ asset('js/app.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/mdb.min.js') }}"></script>
+<script src="{{ asset('assets/js/app.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/mdb.min.js') }}"></script>
 
 <script>
   //Animation init

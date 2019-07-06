@@ -13,8 +13,8 @@ class LandingController extends Controller
    *
    * @return Renderable
    */
-  public function index()
+  public function index(Request $request)
   {
-    return view('site.landing');
+    return view('layouts.site');
   }
 }

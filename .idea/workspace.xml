@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6dd9e729-1939-4bdf-b12b-f62f38372256" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/addons-pro/timeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/addons-pro/timeline.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/addons/datatables-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/addons/datatables-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/addons/datatables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/addons/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/addons/directives.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/addons/directives.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/mdb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/mdb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/modules/animations-extended.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/modules/animations-extended.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/html/Landing-Page-Construction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/html/Landing-Page-Travel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/0639469ef2cc5177_shutterstock_90247450xxxlarge_2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/0639469ef2cc5177_shutterstock_90247450xxxlarge_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/5-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/img-measurer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/lightbox/default-skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/lightbox/default-skin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/lightbox/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/overlays/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/sample.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/svg/arrow_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/img/svg/arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/addons/datatables-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/addons/datatables-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/addons/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/addons/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/mdb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/mdb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/addons/datatables-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/addons/datatables-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/addons/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/addons/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/buttons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/cards.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/chips.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/collapsible.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/default-file-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/enhanced-modals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/forms-free.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/jarallax-video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/jarallax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/jquery.easypiechart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/jquery.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/material-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/mdb-autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/picker-date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/picker-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/scrolling-navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/sidenav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/smooth-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/toastr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/waves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/modules/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/js/popper.min.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/laravel/dusk" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="640" />
+    <option name="height" value="345" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="landing-cupboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing-cupboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="landing-cupboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing-cupboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="landing-cupboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing-cupboard" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6dd9e729-1939-4bdf-b12b-f62f38372256" name="Default" comment="" />
+      <created>1562385870887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562385870887</updated>
+      <workItem from="1562385872248" duration="2013000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2013000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="npm" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" weight="0.92022794" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14697987" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/1558559787-1341843925-0.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/1558559620-1422113834-0.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

@@ -29,24 +29,27 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], 
     Route::post('roles_mass_destroy', ['uses' => 'Admin\RolesController@massDestroy', 'as' => 'roles.mass_destroy']);
     Route::resource('users', 'Admin\UsersController');
     Route::post('users_mass_destroy', ['uses' => 'Admin\UsersController@massDestroy', 'as' => 'users.mass_destroy']);
-    Route::resource('product_categories', 'Admin\ProductCategoriesController');
-    Route::post('product_categories_mass_destroy', ['uses' => 'Admin\ProductCategoriesController@massDestroy', 'as' => 'product_categories.mass_destroy']);
-    Route::resource('product_tags', 'Admin\ProductTagsController');
-    Route::post('product_tags_mass_destroy', ['uses' => 'Admin\ProductTagsController@massDestroy', 'as' => 'product_tags.mass_destroy']);
-    Route::resource('products', 'Admin\ProductsController');
-    Route::post('products_mass_destroy', ['uses' => 'Admin\ProductsController@massDestroy', 'as' => 'products.mass_destroy']);
-    Route::resource('services', 'Admin\ServicesController');
-    Route::post('services_mass_destroy', ['uses' => 'Admin\ServicesController@massDestroy', 'as' => 'services.mass_destroy']);
-    Route::post('services_restore/{id}', ['uses' => 'Admin\ServicesController@restore', 'as' => 'services.restore']);
-    Route::delete('services_perma_del/{id}', ['uses' => 'Admin\ServicesController@perma_del', 'as' => 'services.perma_del']);
-    Route::resource('galery1s', 'Admin\Galery1sController');
-    Route::post('galery1s_mass_destroy', ['uses' => 'Admin\Galery1sController@massDestroy', 'as' => 'galery1s.mass_destroy']);
-    Route::post('galery1s_restore/{id}', ['uses' => 'Admin\Galery1sController@restore', 'as' => 'galery1s.restore']);
-    Route::delete('galery1s_perma_del/{id}', ['uses' => 'Admin\Galery1sController@perma_del', 'as' => 'galery1s.perma_del']);
-    Route::resource('news', 'Admin\NewsController');
-    Route::post('news_mass_destroy', ['uses' => 'Admin\NewsController@massDestroy', 'as' => 'news.mass_destroy']);
-    Route::post('news_restore/{id}', ['uses' => 'Admin\NewsController@restore', 'as' => 'news.restore']);
-    Route::delete('news_perma_del/{id}', ['uses' => 'Admin\NewsController@perma_del', 'as' => 'news.perma_del']);
+
+  Route::resource('menus', 'Admin\MenusController');
+  Route::post('menus_mass_destroy', ['uses' => 'Admin\MenusController@massDestroy', 'as' => 'menus.mass_destroy']);
+  Route::post('menus_restore/{id}', ['uses' => 'Admin\MenusController@restore', 'as' => 'menus.restore']);
+  Route::delete('menus_perma_del/{id}', ['uses' => 'Admin\MenusController@perma_del', 'as' => 'menus.perma_del']);
+
+  Route::resource('slides', 'Admin\SlidesController');
+  Route::post('slides_mass_destroy', ['uses' => 'Admin\SlidesController@massDestroy', 'as' => 'slides.mass_destroy']);
+  Route::post('slides_restore/{id}', ['uses' => 'Admin\SlidesController@restore', 'as' => 'slides.restore']);
+  Route::delete('slides_perma_del/{id}', ['uses' => 'Admin\SlidesController@perma_del', 'as' => 'slides.perma_del']);
+
+  Route::resource('advantages', 'Admin\AdvantagesController');
+  Route::post('advantages_mass_destroy', ['uses' => 'Admin\AdvantagesController@massDestroy', 'as' => 'advantages.mass_destroy']);
+  Route::post('advantages_restore/{id}', ['uses' => 'Admin\AdvantagesController@restore', 'as' => 'advantages.restore']);
+  Route::delete('advantages_perma_del/{id}', ['uses' => 'Admin\AdvantagesController@perma_del', 'as' => 'advantages.perma_del']);
+
+  Route::resource('catalogs', 'Admin\CatalogsController');
+  Route::post('catalogs_mass_destroy', ['uses' => 'Admin\CatalogsController@massDestroy', 'as' => 'catalogs.mass_destroy']);
+  Route::post('catalogs_restore/{id}', ['uses' => 'Admin\CatalogsController@restore', 'as' => 'catalogs.restore']);
+  Route::delete('catalogs_perma_del/{id}', ['uses' => 'Admin\CatalogsController@perma_del', 'as' => 'catalogs.perma_del']);
+
     Route::resource('contacts', 'Admin\ContactsController');
     Route::post('contacts_mass_destroy', ['uses' => 'Admin\ContactsController@massDestroy', 'as' => 'contacts.mass_destroy']);
     Route::post('contacts_restore/{id}', ['uses' => 'Admin\ContactsController@restore', 'as' => 'contacts.restore']);

@@ -1,22 +1,73 @@
 <?php
 
 return [
-		'user-management' => [		'title' => 'User management',		'fields' => [		],	],
-		'roles' => [		'title' => 'Roles',		'fields' => [			'title' => 'Title',		],	],
-		'users' => [		'title' => 'Users',		'fields' => [			'name' => 'Name',			'email' => 'Email',			'password' => 'Password',			'role' => 'Role',			'remember-token' => 'Remember token',		],	],
-		'product-management' => [		'title' => 'Product management',		'fields' => [		],	],
-		'product-categories' => [		'title' => 'Categories',		'fields' => [			'name' => 'Category name',			'description' => 'Description',			'photo' => 'Photo (max 8mb)',		],	],
-		'product-tags' => [		'title' => 'Tags',		'fields' => [			'name' => 'Name',		],	],
-		'products' => [		'title' => 'Products',		'fields' => [			'name' => 'Product name',			'description' => 'Description',			'price' => 'Price',			'category' => 'Category',			'tag' => 'Tag',			'photo1' => 'Photo1',			'photo2' => 'Photo2',			'photo3' => 'Photo3',		],	],
-		'contact-management' => [		'title' => 'Contact management',		'fields' => [		],	],
-		'contact-companies' => [		'title' => 'Companies',		'fields' => [		],	],
-		'contacts' => [		'title' => 'Contacts',		'fields' => [		],	],
-		'services' => [		'title' => 'Услуги',		'fields' => [			'title' => 'Услуга',			'images' => 'Фото',		],	],
-		'galery' => [		'title' => 'Galery',		'fields' => [		],	],
-		'category' => [		'title' => 'Category',		'fields' => [		],	],
-		'galery1' => [		'title' => 'Галерея',		'fields' => [			'title' => 'Категория',			'images' => 'Фото',			'content' => 'Контент',		],	],
-		'news' => [		'title' => 'Новости',		'fields' => [			'title' => 'Название',			'cocntent' => 'Контент',		],	],
-		'contacts' => [		'title' => 'Контакты',		'fields' => [			'phone' => 'Телефон',			'email' => 'Email',			'address' => 'Адрес',		],	],
+	
+	'user-management' => [
+		'title' => 'User management',
+		'fields' => [
+		],
+	],
+	
+	'roles' => [
+		'title' => 'Roles',
+		'fields' => [
+			'title' => 'Title',
+		],
+	],
+	
+	'users' => [
+		'title' => 'Users',
+		'fields' => [
+			'name' => 'Name',
+			'email' => 'Email',
+			'password' => 'Password',
+			'role' => 'Role',
+			'remember-token' => 'Remember token',
+		],
+	],
+
+  'menu' => [
+    'title' => 'Меню',
+    'fields' => [
+      'title' => 'Меню',
+    ],
+  ],
+
+  'slides' => [
+    'title' => 'Главное фото',
+    'fields' => [
+      'photo' => 'Фото',
+      'text' => 'Текст',
+    ],
+  ],
+
+  'advantages' => [
+    'title' => 'Наши преимущества',
+    'fields' => [
+      'photo' => 'Фото',
+      'title' => 'Описание',
+    ],
+  ],
+
+  'catalog' => [
+    'title' => 'Проекты',
+    'fields' => [
+      'photo' => 'Фото',
+      'title' => 'Название',
+      'description' => 'Описание',
+      'price' => 'Цена',
+    ],
+  ],
+
+	
+	'contacts' => [
+		'title' => 'Контакты',
+		'fields' => [
+			'phone' => 'Телефон',
+			'email' => 'Email',
+			'address' => 'Адрес',
+		],
+	],
 	'qa_create' => 'Создать',
 	'qa_save' => 'Сохранить',
 	'qa_edit' => 'Редактировать',

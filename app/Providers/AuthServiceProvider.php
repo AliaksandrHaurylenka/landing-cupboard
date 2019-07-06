@@ -52,109 +52,61 @@ class AuthServiceProvider extends ServiceProvider
             return in_array($user->role_id, [1]);
         });
 
-        // Auth gates for: Product management
-        Gate::define('product_management_access', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
+      // Auth gates for: Menu
+      Gate::define('menu_access', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('menu_create', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('menu_edit', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('menu_delete', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
 
-        // Auth gates for: Product categories
-        Gate::define('product_category_access', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_category_create', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_category_edit', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_category_view', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_category_delete', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
+      // Auth gates for: Slides
+      Gate::define('slide_access', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('slide_create', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('slide_edit', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('slide_delete', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
 
-        // Auth gates for: Product tags
-        Gate::define('product_tag_access', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_tag_create', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_tag_edit', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_tag_view', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_tag_delete', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
+      // Auth gates for: Advantages
+      Gate::define('advantage_access', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('advantage_create', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('advantage_edit', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('advantage_delete', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
 
-        // Auth gates for: Products
-        Gate::define('product_access', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_create', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_edit', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_view', function ($user) {
-            return in_array($user->role_id, [1, 2]);
-        });
-        Gate::define('product_delete', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-
-        // Auth gates for: Services
-        Gate::define('service_access', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('service_create', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('service_edit', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('service_delete', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-
-        // Auth gates for: Galery1
-        Gate::define('galery1_access', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('galery1_create', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('galery1_edit', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('galery1_view', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('galery1_delete', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-
-        // Auth gates for: News
-        Gate::define('news_access', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('news_create', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('news_edit', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('news_view', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
-        Gate::define('news_delete', function ($user) {
-            return in_array($user->role_id, [1]);
-        });
+      // Auth gates for: Catalog
+      Gate::define('catalog_access', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('catalog_create', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('catalog_edit', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
+      Gate::define('catalog_delete', function ($user) {
+        return in_array($user->role_id, [1]);
+      });
 
         // Auth gates for: Contacts
         Gate::define('contact_access', function ($user) {

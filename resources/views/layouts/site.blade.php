@@ -93,7 +93,7 @@
 
   <!-- Intro Section -->
   <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
-       style="background-size: cover; background: url({{asset('img/5-1.jpg')}}) no-repeat center center;">
+       style="background-size: cover; background: url({{asset('assets/img/5-1.jpg')}}) no-repeat center center;">
     <div class="mask">
       <!-- <div class="mask rgba-indigo-light"> -->
       <div class="container h-100 d-flex justify-content-center align-items-center">
@@ -178,7 +178,7 @@
 
         <div class="row align-items-center">
           <div class="col-sm-6">
-            <img src="{{asset('img/women.png')}}" class="img-fluid">
+            <img src="{{asset('assets/img/women.png')}}" class="img-fluid">
           </div>
           <div class="col-sm-6">
             <button type="button" class="btn btn-primary d-block">Primary</button>
@@ -213,7 +213,7 @@
 
         <div class="row align-items-center">
           <div class="col-sm-6">
-            <img src="{{asset('img/men.png')}}" class="img-fluid">
+            <img src="{{asset('assets/img/men.png')}}" class="img-fluid">
           </div>
           <div class="col-sm-6">
             <h3>Что он будет делать:</h3>

@@ -2,107 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dd9e729-1939-4bdf-b12b-f62f38372256" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/addons-pro/timeline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/addons-pro/timeline.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/addons/datatables-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/addons/datatables-select.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/addons/datatables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/addons/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/addons/directives.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/addons/directives.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/mdb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/mdb.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/modules/animations-extended.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/modules/animations-extended.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Thin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/font/roboto/Roboto-Thin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/html/Landing-Page-Construction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/html/Landing-Page-Travel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/0639469ef2cc5177_shutterstock_90247450xxxlarge_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/0639469ef2cc5177_shutterstock_90247450xxxlarge_2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/5-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/img-measurer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/lightbox/default-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/lightbox/default-skin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/lightbox/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/overlays/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/sample.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/svg/arrow_left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/img/svg/arrow_right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/addons/datatables-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/addons/datatables-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/addons/datatables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/addons/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/mdb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/mdb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/addons/datatables-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/addons/datatables-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/addons/datatables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/addons/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/buttons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/cards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/chips.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/collapsible.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/default-file-input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/enhanced-modals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/forms-free.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/jarallax-video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/jarallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/jquery.easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/jquery.sticky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/lightbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/material-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/mdb-autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/picker-date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/picker-time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/picker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/scrolling-navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/sidenav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/smooth-scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/toastr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/velocity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/waves.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/modules/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,9 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="landing.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/landing.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="216" column="65" selection-start-line="216" selection-start-column="65" selection-end-line="216" selection-end-column="65" />
+              <folding>
+                <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -130,6 +56,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LandingController.php" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/site/landing.blade.php" />
       </list>
     </option>
   </component>
@@ -244,6 +176,9 @@
     <option name="width" value="640" />
     <option name="height" value="345" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -256,11 +191,6 @@
             <path>
               <item name="landing-cupboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="landing-cupboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing-cupboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing-cupboard" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="landing-cupboard" type="b2602c69:ProjectViewProjectNode" />
@@ -301,25 +231,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562385870887</updated>
-      <workItem from="1562385872248" duration="2320000" />
+      <workItem from="1562385872248" duration="10314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2320000" />
+    <option name="totallyTimeSpent" value="10314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50067115" side_tool="true" weight="0.92022794" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.92022794" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49932885" weight="0.92022794" />
       <window_info anchor="right" id="Remote Host" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14697987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14697987" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,8 +296,104 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/template/css/mdb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11022" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/template/css/mdb.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="40" selection-end-column="34516" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LandingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#40#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding>
+            <element signature="e#8#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/landing.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="216" column="65" selection-start-line="216" selection-start-column="65" selection-end-line="216" selection-end-column="65" />
+          <folding>
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

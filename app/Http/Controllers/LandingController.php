@@ -27,6 +27,6 @@ class LandingController extends Controller
     $contacts = Contact::all();
     $catalog = Catalog::all();
 
-    return view('layouts.site', compact('menus', 'advantage', 'slide', 'contacts', 'catalog'));
+    return view('site.index', compact('menus', 'advantage', 'slide', 'contacts', 'catalog'));
   }
 }

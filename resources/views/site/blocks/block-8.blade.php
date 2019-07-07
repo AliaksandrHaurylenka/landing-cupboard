@@ -11,7 +11,8 @@
 
     <!-- Grid column -->
     <div class="col-md-8 col-lg-9">
-      <form>
+      <form action="" method="post">
+      {{ csrf_field() }}
         <!-- Grid row -->
         <div class="row">
           <!-- Grid column -->
@@ -60,10 +61,22 @@
           </div>
         </div>
         <!-- Third row -->
+
+        <div class="row">
+          <div class="col-3">
+            <a href="" id="refresh"><img src="{{ Captcha::src('math') }}" alt="captcha" class="captcha-img" data-refresh-config="default"></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col md-form">
+            <input class="form-control" type="text" placeholder="Капча*" name="captcha">
+          </div>
+        </div>
       </form>
 
       <div class="text-center text-md-left mb-5 mt-4">
-        <a class="btn btn-rounded btn-orange-2 white-text">Send</a>
+        <button type="submit" class="btn btn-rounded btn-orange-2 white-text">Send</button>
       </div>
     </div>
     <!-- Grid column -->

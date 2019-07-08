@@ -1,3 +1,7 @@
 .p-advantage {
     font-size: 1rem;
 }
+
+.btn-block-2:hover .btn {
+	color: #fff;
+}

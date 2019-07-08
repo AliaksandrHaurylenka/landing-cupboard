@@ -1,11 +1,11 @@
 <!-- Section: Services -->
-<section id="services" class="section mb-5">
+<section id="katalog" class="section mb-5">
 
   <!-- Section heading -->
-  <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-4 wow fadeIn" data-wow-delay="0.2s">Каталог популярных шкафов-купе 2018 года</h3>
+  <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-4 wow fadeIn" data-wow-delay="0.2s">Каталог популярных шкафов-купе</h3>
 
   <!-- Section description -->
-  <p class="text-center grey-text mt-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecati adipisci sapiente mollitia? Autem delectus quod accusamus tempora, aperiam minima assumenda deleniti.</p>
+  {{--<p class="text-center grey-text mt-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecati adipisci sapiente mollitia? Autem delectus quod accusamus tempora, aperiam minima assumenda deleniti.</p>--}}
 
   <!-- Grid row -->
   <div class="row wow fadeIn" data-wow-delay="0.4s">
@@ -46,10 +46,6 @@
           <div class="col-lg-4 col-md-6 mb-5">
 
             <!-- Featured image -->
-            <!-- <div class="view overlay z-depth-1 zoom">
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%281%29.jpg" class="img-fluid">
-            </div> -->
-
             <div class="card">
 
               <!-- Card image -->
@@ -82,10 +78,6 @@
           <div class="col-lg-4 col-md-6 mb-5">
 
             <!-- Featured image -->
-            <!-- <div class="view overlay z-depth-1 zoom">
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%282%29.jpg" class="img-fluid">
-            </div> -->
-
             <div class="card">
 
               <!-- Card image -->
@@ -118,10 +110,6 @@
           <div class="col-lg-4 col-md-6 mb-5">
 
             <!-- Featured image -->
-            <!-- <div class="view overlay z-depth-1 zoom">
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%283%29.jpg" class="img-fluid">
-            </div> -->
-
             <div class="card">
 
               <!-- Card image -->
@@ -202,97 +190,6 @@
       </div>
       <!-- Panel 2 -->
 
-      <!-- Panel 3 -->
-      <div class="tab-pane fade" id="panel33" role="tabpanel">
-        <br>
-
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
-
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%2810%29.jpg" class="img-fluid">
-            </div>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
-
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%2813%29.jpg" class="img-fluid">
-            </div>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
-
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%2814%29.jpg" class="img-fluid">
-            </div>
-
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-      </div>
-      <!-- Panel 3 -->
-
-      <!-- Panel 4 -->
-      <div class="tab-pane fade" id="panel34" role="tabpanel">
-        <br>
-
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
-
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%289%29.jpg" class="img-fluid">
-            </div>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
-
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%288%29.jpg" class="img-fluid">
-            </div>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
-
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%286%29.jpg" class="img-fluid">
-            </div>
-
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-      </div>
-      <!-- Panel 4 -->
 
     </div>
     <!-- Tab panels -->

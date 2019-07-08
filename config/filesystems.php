@@ -1,6 +1,6 @@
 <?php
 
-return [
+  return [
 
     /*
     |--------------------------------------------------------------------------
@@ -43,36 +43,36 @@ return [
 
     'disks' => [
 
-        'local' => [
-            'driver' => 'local',
-            'root'   => storage_path('app'),
-        ],
-        
-        'public' => [
-            'driver'     => 'local',
-            'root'       => storage_path('app/public'),
-            'url'        => env('APP_URL') . '/storage',
-            'visibility' => 'public',
-        ],
+      'local' => [
+        'driver' => 'local',
+        'root' => storage_path('app'),
+      ],
 
-        's3' => [
-            'driver' => 's3',
-            'key'    => env('AWS_KEY'),
-            'secret' => env('AWS_SECRET'),
-            'region' => env('AWS_REGION'),
-            'bucket' => env('AWS_BUCKET'),
-        ],
+      'public' => [
+        'driver' => 'local',
+        'root' => storage_path('app/public'),
+        'url' => env('APP_URL') . '/storage',
+        'visibility' => 'public',
+      ],
 
-        'uploads' => [
-            'driver' => 'local',
-            'root' => public_path('uploads'),
-        ],
+      's3' => [
+        'driver' => 's3',
+        'key' => env('AWS_KEY'),
+        'secret' => env('AWS_SECRET'),
+        'region' => env('AWS_REGION'),
+        'bucket' => env('AWS_BUCKET'),
+      ],
 
-        'uploads_test' => [
-            'driver' => 'local',
-            'root' => public_path('uploads/test')
-        ],
+      'uploads' => [
+        'driver' => 'local',
+        'root' => public_path('uploads'),
+      ],
+
+      'uploads_test' => [
+        'driver' => 'local',
+        'root' => public_path('uploads/test')
+      ],
 
     ],
 
-];
+  ];

@@ -18,6 +18,7 @@ class Create1562423451CatalogsTable extends Migration
                 $table->string('photo')->nullable();
                 $table->string('title')->nullable();
                 $table->string('description')->nullable();
+                $table->string('type')->nullable();
                 $table->decimal('price', 15, 2)->nullable();
                 
                 $table->timestamps();

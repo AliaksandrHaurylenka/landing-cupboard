@@ -1,10 +1,10 @@
 <?php
 
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Database\Migrations\Migration;
+  use Illuminate\Database\Schema\Blueprint;
+  use Illuminate\Database\Migrations\Migration;
 
-class Create1562422471MenusTable extends Migration
-{
+  class Create1562422471MenusTable extends Migration
+  {
     /**
      * Run the migrations.
      *
@@ -12,17 +12,18 @@ class Create1562422471MenusTable extends Migration
      */
     public function up()
     {
-        if(! Schema::hasTable('menus')) {
-            Schema::create('menus', function (Blueprint $table) {
-                $table->increments('id');
-                $table->string('title')->nullable();
-                
-                $table->timestamps();
-                $table->softDeletes();
+      if (!Schema::hasTable('menus')) {
+        Schema::create('menus', function (Blueprint $table) {
+          $table->increments('id');
+          $table->string('title')->nullable();
+          $table->string('slug')->nullable();
 
-                $table->index(['deleted_at']);
-            });
-        }
+          $table->timestamps();
+          $table->softDeletes();
+
+          $table->index(['deleted_at']);
+        });
+      }
     }
 
     /**
@@ -32,6 +33,6 @@ class Create1562422471MenusTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('menus');
+      Schema::dropIfExists('menus');
     }
-}
+  }

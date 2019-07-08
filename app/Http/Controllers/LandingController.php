@@ -28,13 +28,14 @@ class LandingController extends Controller
     $slide = Slide::latest()->first();
     // $slide = Slide::all()->last();
     $contacts = Contact::all();
-    $catalog = Catalog::all();
-    $catalog2 = Catalog::where('type', '2 створки')->get();
-    $catalog3 = Catalog::where('type', '3 створки')->get();
+    // $catalogs = Catalog::all();
+    $catalogs = Catalog::latest('id')->take(8)->get();
+    $catalog2 = Catalog::where('type', '2 створки')->latest('id')->take(3)->get();
+    $catalog3 = Catalog::where('type', '3 створки')->latest('id')->take(3)->get();
     $catalog_li = Catalog::where('type', '3 створки')->first();
 
     // dd($catalog_li);
 
-    return view('site.index', compact('menus', 'advantages', 'slide', 'contacts', 'catalog', 'catalog2', 'catalog3', 'catalog_li'));
+    return view('site.index', compact('menus', 'advantages', 'slide', 'contacts', 'catalogs', 'catalog2', 'catalog3', 'catalog_li'));
   }
 }

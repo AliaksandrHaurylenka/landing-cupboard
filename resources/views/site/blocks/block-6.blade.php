@@ -24,53 +24,15 @@
       <!-- Full width lightbox -->
       <div class="mdb-lightbox">
 
-        <figure class="col-md-3">
-          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(1).jpg" data-size="1600x1067">
-            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(1).jpg" class="img-fluid z-depth-1">
-          </a>
-        </figure>
-
-        <figure class="col-md-3">
-          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(136).jpg" data-size="1600x1067">
-            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(136).jpg" class="img-fluid z-depth-1">
-          </a>
-        </figure>
-
-        <figure class="col-md-3">
-          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(7).jpg" data-size="1600x1067">
-            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(7).jpg" class="img-fluid z-depth-1">
-          </a>
-
-        </figure>
-        <figure class="col-md-3">
-          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(137).jpg" data-size="1600x1067">
-            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(137).jpg" class="img-fluid z-depth-1">
-          </a>
-        </figure>
-
-        <figure class="col-md-3">
-          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(132).jpg" data-size="1600x1067">
-            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(132).jpg" class="img-fluid z-depth-1">
-          </a>
-        </figure>
-
-        <figure class="col-md-3">
-          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(131).jpg" data-size="1600x1067">
-            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(131).jpg" class="img-fluid z-depth-1">
-          </a>
-        </figure>
-
-        <figure class="col-md-3">
-          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(3).jpg" data-size="1600x1067">
-            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(3).jpg" class="img-fluid z-depth-1">
-          </a>
-        </figure>
-
-        <figure class="col-md-3">
-          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg" data-size="1600x1067">
-            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg" class="img-fluid z-depth-1">
-          </a>
-        </figure>
+        @if(isset($catalogs))
+          @foreach($catalogs as $catalog)
+            <figure class="col-md-3">
+              <a href="{{$catalog->photo}}" data-size="1600x1067">
+                <img src="{{$catalog->photo}}" class="img-fluid z-depth-1">
+              </a>
+            </figure>
+          @endforeach  
+        @endif
       </div>
       <!-- Full width lightbox -->
 

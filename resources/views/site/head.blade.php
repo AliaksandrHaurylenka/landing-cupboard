@@ -7,9 +7,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto smooth-scroll">
-        {{--<li class="nav-item">
-          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-        </li>--}}
         @if(isset($menus))
           @foreach($menus as $menu)
             <li class="nav-item">

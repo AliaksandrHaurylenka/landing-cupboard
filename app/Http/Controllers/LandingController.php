@@ -22,11 +22,11 @@ class LandingController extends Controller
   public function index(Request $request)
   {
     $menus = Menu::all();
-    $advantage = Advantage::all();
+    $advantages = Advantage::all();
     $slide = Slide::all();
     $contacts = Contact::all();
     $catalog = Catalog::all();
 
-    return view('site.index', compact('menus', 'advantage', 'slide', 'contacts', 'catalog'));
+    return view('site.index', compact('menus', 'advantages', 'slide', 'contacts', 'catalog'));
   }
 }

@@ -20,6 +20,7 @@
   <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="{{ asset('assets/css/mdb.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
   <link rel="icon" href="{{ asset('favicon.ico') }}">
 
   <style>
@@ -30,7 +31,8 @@
       height: 100%;
     }
 
-    @media (min-width: 560px) and (max-width: 740px) {
+    /*@media (min-width: 560px) and (max-width: 767px) {*/
+    @media (max-width: 767px) {
       html,
       body,
       header,

@@ -32,7 +32,6 @@
 </nav>
 
 <!-- Intro Section -->
-<!-- <div id="glavnaya" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-size: cover; background: url({{asset('assets/img/5-1.jpg')}}) no-repeat center center;"> -->
 <div id="glavnaya" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-size: cover; background: url({{asset('img/'.$slide->photo)}}) no-repeat center center;">
   <div class="mask">
     <!-- <div class="mask rgba-indigo-light"> -->

@@ -23,9 +23,14 @@ class LandingController extends Controller
   {
     $menus = Menu::all();
     $advantages = Advantage::all();
-    $slide = Slide::all();
+    // $slide = Slide::find(3);
+    // $slide = Slide::first();
+    // $slide = Slide::latest()->first();
+    $slide = Slide::all()->last();
     $contacts = Contact::all();
     $catalog = Catalog::all();
+
+    // dd($slide);
 
     return view('site.index', compact('menus', 'advantages', 'slide', 'contacts', 'catalog'));
   }

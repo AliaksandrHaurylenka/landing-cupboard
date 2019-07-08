@@ -6,6 +6,7 @@
   <!-- Section description -->
   {{--<p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecati adipisci sapiente mollitia? Autem delectus quod accusamus tempora, aperiam minima assumenda deleniti.</p>--}}
 
+
   <!-- Grid row -->
   <div class="d-flex flex-md-row flex-column justify-content-around text-center">
     <!-- Grid column -->

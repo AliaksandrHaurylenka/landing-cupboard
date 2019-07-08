@@ -32,8 +32,8 @@
 </nav>
 
 <!-- Intro Section -->
-<div id="glavnaya" class="view jarallax" data-jarallax='{"speed": 0.2}'
-     style="background-size: cover; background: url({{asset('assets/img/5-1.jpg')}}) no-repeat center center;">
+<!-- <div id="glavnaya" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-size: cover; background: url({{asset('assets/img/5-1.jpg')}}) no-repeat center center;"> -->
+<div id="glavnaya" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-size: cover; background: url({{asset('img/'.$slide->photo)}}) no-repeat center center;">
   <div class="mask">
     <!-- <div class="mask rgba-indigo-light"> -->
     <div class="container h-100 d-flex justify-content-center align-items-center">
@@ -42,10 +42,7 @@
           <div class="text-white wow fadeInDown">
             <h1 class="display-4 text-uppercase font-weight-bold">Шкафы-купе</h1>
             <hr class="hr-light my-4">
-            <h4 class="subtext-header white-text mb-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </h4>
-            <h4>Deleniti consequuntur, nihil voluptatem modi nobis veniam.</h4>
+            <h4 class="h4-responsive subtext-header white-text mb-3">{!!$slide->text!!}</h4>
           </div>
           <a href="#features" data-offset="100" class="btn blue-gradient btn-rounded wow fadeInUp" data-wow-delay="0.2s">Welcome</a>
         </div>

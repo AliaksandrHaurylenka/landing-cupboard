@@ -16,16 +16,10 @@
       <!--  Nav tabs  -->
       <ul class="nav md-pills flex-center flex-wrap mx-0 mb-4" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab"><br>construction</a>
+          <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel2" role="tab"><br>construction</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab"><br>painting</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab"><br>architecture</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel34" role="tab"><br>renovation</a>
+          <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel3" role="tab"><br>architecture</a>
         </li>
       </ul>
 
@@ -36,107 +30,47 @@
     <div class="tab-content pt-0">
 
       <!-- Panel 1 -->
-      <div class="tab-pane fade show in active" id="panel31" role="tabpanel">
+      <div class="tab-pane fade show in active" id="panel2" role="tabpanel">
         <br>
 
         <!-- Grid row -->
         <div class="row">
 
           <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
+          @if(isset($catalog2))
+            @foreach($catalog2 as $type2)
+              <div class="col-lg-4 col-md-6 mb-5">
 
-            <!-- Featured image -->
-            <div class="card">
+                <!-- Featured image -->
+                <div class="card">
 
-              <!-- Card image -->
-              <div class="view overlay z-depth-1 zoom">
-                <img class="card-img-top img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%281%29.jpg" alt="Card image cap">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
+                  <!-- Card image -->
+                  <div class="view overlay z-depth-1 zoom">
+                    <img class="card-img-top img-fluid" src="{{$type2->photo}}" alt="{{$type2->title}}">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
 
-              <!-- Card content -->
-              <div class="card-body text-center">
+                  <!-- Card content -->
+                  <div class="card-body text-center">
 
-                <!-- Title -->
-                <h4 class="card-title">Card title</h4>
-                <!-- Text -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <!-- Button -->
-                <a href="#" class="btn btn-primary">Button</a>
+                    <!-- Title -->
+                    <h4 class="card-title">{!!$type2->title!!}</h4>
+                    <!-- Text -->
+                    <p class="card-text">{!!$type2->description!!}</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
 
-              </div>
+                  </div>
 
-            </div>
-            <!-- Card -->
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
-
-            <!-- Featured image -->
-            <div class="card">
-
-              <!-- Card image -->
-              <div class="view overlay z-depth-1 zoom">
-                <img class="card-img-top img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%282%29.jpg" alt="Card image cap">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <!-- Card content -->
-              <div class="card-body text-center">
-
-                <!-- Title -->
-                <h4 class="card-title">Card title</h4>
-                <!-- Text -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <!-- Button -->
-                <a href="#" class="btn btn-primary">Button</a>
+                </div>
+                <!-- Card -->
 
               </div>
-
-            </div>
-            <!-- Card -->
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
-
-            <!-- Featured image -->
-            <div class="card">
-
-              <!-- Card image -->
-              <div class="view overlay z-depth-1 zoom">
-                <img class="card-img-top img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%283%29.jpg" alt="Card image cap">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <!-- Card content -->
-              <div class="card-body text-center">
-
-                <!-- Title -->
-                <h4 class="card-title">Card title</h4>
-                <!-- Text -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <!-- Button -->
-                <a href="#" class="btn btn-primary">Button</a>
-
-              </div>
-
-            </div>
-            <!-- Card -->
-
-          </div>
-          <!-- Grid column -->
+              <!-- Grid column -->
+            @endforeach  
+          @endif
 
         </div>
         <!-- Grid row -->
@@ -145,48 +79,49 @@
       <!-- Panel 1 -->
 
       <!-- Panel 2 -->
-      <div class="tab-pane fade" id="panel32" role="tabpanel">
+      <div class="tab-pane fade" id="panel3" role="tabpanel">
         <br>
 
         <!-- Grid row -->
         <div class="row">
+          @if(isset($catalog3))
+            @foreach($catalog3 as $type3)
+              <!-- Grid column -->
+              <div class="col-lg-4 col-md-6 mb-5">
 
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
+                <!-- Featured image -->
+                <div class="card">
 
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%286%29.jpg" class="img-fluid">
-            </div>
+                  <!-- Card image -->
+                  <div class="view overlay z-depth-1 zoom">
+                    <img class="card-img-top img-fluid" src="{{$type3->photo}}" alt="{{$type3->title}}">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
 
-          </div>
-          <!-- Grid column -->
+                  <!-- Card content -->
+                  <div class="card-body text-center">
 
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
+                    <!-- Title -->
+                    <h4 class="card-title">{!!$type3->title!!}</h4>
+                    <!-- Text -->
+                    <p class="card-text">{!!$type3->description!!}</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
 
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%285%29.jpg" class="img-fluid">
-            </div>
+                  </div>
 
-          </div>
-          <!-- Grid column -->
+                </div>
+                <!-- Card -->
 
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-5">
+              </div>
+              <!-- Grid column -->
 
-            <!-- Featured image -->
-            <div class="view overlay z-depth-1 zoom">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%284%29.jpg" class="img-fluid">
-            </div>
-
-          </div>
-          <!-- Grid column -->
-
+            @endforeach  
+          @endif
         </div>
         <!-- Grid row -->
-
       </div>
       <!-- Panel 2 -->
 

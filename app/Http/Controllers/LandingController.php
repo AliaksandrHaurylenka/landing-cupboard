@@ -29,9 +29,12 @@ class LandingController extends Controller
     // $slide = Slide::all()->last();
     $contacts = Contact::all();
     $catalog = Catalog::all();
+    $catalog2 = Catalog::where('type', '2 створки')->get();
+    $catalog3 = Catalog::where('type', '3 створки')->get();
+    $catalog_li = Catalog::where('type', '3 створки')->first();
 
-    // dd($slide);
+    // dd($catalog_li);
 
-    return view('site.index', compact('menus', 'advantages', 'slide', 'contacts', 'catalog'));
+    return view('site.index', compact('menus', 'advantages', 'slide', 'contacts', 'catalog', 'catalog2', 'catalog3', 'catalog_li'));
   }
 }

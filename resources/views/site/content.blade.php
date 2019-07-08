@@ -16,11 +16,7 @@
 
 @include('site.blocks.block-5')
 @include('site.blocks.block-6')
-
-<!-- Streak -->
-<div class="streak streak-photo streak-long-2" style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20%2818%29.jpg')">
-  @include('site.blocks.block-7')
-</div>
+@include('site.blocks.block-7')
 
 <div class="container">
   <!-- Section: Contact v.2 -->

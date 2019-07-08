@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Хост:                         127.0.0.1
--- Версия сервера:               5.7.24 - MySQL Community Server (GPL)
--- Операционная система:         Win64
--- HeidiSQL Версия:              9.5.0.5332
+-- Версия сервера:               10.2.3-MariaDB-log - mariadb.org binary distribution
+-- Операционная система:         Win32
+-- HeidiSQL Версия:              9.4.0.5125
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `advantages` (
   KEY `advantages_deleted_at_index` (`deleted_at`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing-cupboard.advantages: ~4 rows (приблизительно)
+-- Дамп данных таблицы landing-cupboard.advantages: ~5 rows (приблизительно)
 /*!40000 ALTER TABLE `advantages` DISABLE KEYS */;
 INSERT INTO `advantages` (`id`, `photo`, `title`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, '1562480961-tupicon1.png', 'Качественные материалы и фурнитура', '2019-07-07 06:29:21', '2019-07-07 06:29:21', NULL),
@@ -46,17 +46,19 @@ CREATE TABLE IF NOT EXISTS `catalogs` (
   `deleted_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `catalogs_deleted_at_index` (`deleted_at`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing-cupboard.catalogs: ~5 rows (приблизительно)
+-- Дамп данных таблицы landing-cupboard.catalogs: ~6 rows (приблизительно)
 /*!40000 ALTER TABLE `catalogs` DISABLE KEYS */;
 INSERT INTO `catalogs` (`id`, `photo`, `title`, `description`, `type`, `price`, `created_at`, `updated_at`, `deleted_at`) VALUES
-	(1, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%281%29.jpg', NULL, NULL, '2 створки', NULL, NULL, NULL, NULL),
-	(2, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%282%29.jpg', NULL, NULL, '2 створки', NULL, NULL, NULL, NULL),
-	(3, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%283%29.jpg', NULL, NULL, '2 створки', NULL, NULL, NULL, NULL),
-	(4, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%286%29.jpg', NULL, NULL, '3 створки', NULL, NULL, NULL, NULL),
-	(5, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%285%29.jpg', NULL, NULL, '3 створки', NULL, NULL, NULL, NULL),
-	(6, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%284%29.jpg', NULL, NULL, '3 створки', NULL, NULL, NULL, NULL);
+	(1, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%281%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 3.00, NULL, '2019-07-08 10:29:51', NULL),
+	(2, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%282%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 2.00, NULL, '2019-07-08 10:30:14', NULL),
+	(3, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%283%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 3.00, NULL, '2019-07-08 10:30:31', NULL),
+	(4, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%286%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 5.00, NULL, '2019-07-08 10:30:49', NULL),
+	(5, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%285%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 3.00, NULL, '2019-07-08 10:31:01', NULL),
+	(6, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%284%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 3.00, NULL, '2019-07-08 10:31:14', NULL),
+	(7, 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(137).jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 4.00, NULL, NULL, NULL),
+	(8, 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 4.00, NULL, NULL, NULL);
 /*!40000 ALTER TABLE `catalogs` ENABLE KEYS */;
 
 -- Дамп структуры для таблица landing-cupboard.contacts
@@ -110,7 +112,7 @@ CREATE TABLE IF NOT EXISTS `migrations` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing-cupboard.migrations: ~9 rows (приблизительно)
+-- Дамп данных таблицы landing-cupboard.migrations: ~10 rows (приблизительно)
 /*!40000 ALTER TABLE `migrations` DISABLE KEYS */;
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 	(1, '2014_10_12_000000_create_users_table', 1),
@@ -146,7 +148,7 @@ CREATE TABLE IF NOT EXISTS `roles` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing-cupboard.roles: ~2 rows (приблизительно)
+-- Дамп данных таблицы landing-cupboard.roles: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `roles` DISABLE KEYS */;
 INSERT INTO `roles` (`id`, `title`, `created_at`, `updated_at`) VALUES
 	(1, 'Administrator (can create other users)', '2019-07-06 15:25:01', '2019-07-06 15:25:01'),
@@ -163,12 +165,12 @@ CREATE TABLE IF NOT EXISTS `slides` (
   `deleted_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `slides_deleted_at_index` (`deleted_at`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Дамп данных таблицы landing-cupboard.slides: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `slides` DISABLE KEYS */;
 INSERT INTO `slides` (`id`, `photo`, `text`, `created_at`, `updated_at`, `deleted_at`) VALUES
-	(3, '1562480749-5-1.jpg', NULL, '2019-07-07 06:25:50', '2019-07-07 06:25:50', NULL);
+	(1, '1562480749-5-1.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '2019-07-07 06:25:50', '2019-07-08 07:38:06', NULL);
 /*!40000 ALTER TABLE `slides` ENABLE KEYS */;
 
 -- Дамп структуры для таблица landing-cupboard.users

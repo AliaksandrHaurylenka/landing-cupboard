@@ -16,10 +16,10 @@
       <!--  Nav tabs  -->
       <ul class="nav md-pills flex-center flex-wrap mx-0 mb-4" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel2" role="tab"><br>construction</a>
+          <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel2" role="tab"><br>2-х секционные</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel3" role="tab"><br>architecture</a>
+          <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel3" role="tab"><br>3-х секционные</a>
         </li>
       </ul>
 

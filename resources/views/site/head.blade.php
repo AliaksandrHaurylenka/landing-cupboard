@@ -34,7 +34,6 @@
 <!-- Intro Section -->
 <div id="glavnaya" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-size: cover; background: url({{asset('img/'.$slide->photo)}}) no-repeat center center;">
   <div class="mask">
-    <!-- <div class="mask rgba-indigo-light"> -->
     <div class="container h-100 d-flex justify-content-center align-items-center">
       <div class="row smooth-scroll">
         <div class="col-md-12 text-center">

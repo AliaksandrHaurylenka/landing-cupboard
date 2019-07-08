@@ -25,8 +25,8 @@ class LandingController extends Controller
     $advantages = Advantage::all();
     // $slide = Slide::find(3);
     // $slide = Slide::first();
-    // $slide = Slide::latest()->first();
-    $slide = Slide::all()->last();
+    $slide = Slide::latest()->first();
+    // $slide = Slide::all()->last();
     $contacts = Contact::all();
     $catalog = Catalog::all();
 

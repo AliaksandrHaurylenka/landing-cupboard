@@ -5,3 +5,9 @@
 .btn-block-2:hover .btn {
 	color: #fff;
 }
+
+.block-3-ul {
+	list-style: none;
+	padding-left: 0;
+	font-size: 1.1rem;
+}

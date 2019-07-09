@@ -21,7 +21,7 @@
           <li class="mb-3">&mdash; Покажет образцы материалов.</li>
           <li class="">&mdash; Проведёт замер и расчёт стоимости.</li>
         </ul>
-        <a href="#kontakty" class="btn btn-block py-4 unique-color" data-offset="90">Пригласить замерщика</a>
+        <a href="#kontakty" class="btn btn-block py-4 unique-color" data-offset="90"g>Пригласить замерщика</a>
       </div>
     </div>
 

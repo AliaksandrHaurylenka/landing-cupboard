@@ -13,7 +13,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Шкафы</title>
+  <title>{{ config('app.name') }}</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -62,6 +62,13 @@
 
 <!-- Navigation & Intro -->
 <header>
+  @if(session('status'))
+  <div class="alert alert-success mt-5" role="alert">
+    {{session('status')}}
+  </div>
+  @endif
+  @include('admin.errors')
+
   @yield('head')
 </header>
 <!-- Navigation & Intro -->

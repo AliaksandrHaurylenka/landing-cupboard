@@ -11,7 +11,7 @@
 
     <!-- Grid column -->
     <div class="col-md-8 col-lg-9">
-      <form action="" method="post">
+      <form action="/message" method="post">
       {{ csrf_field() }}
         <!-- Grid row -->
         <div class="row">
@@ -54,7 +54,7 @@
           <div class="col-md-12">
 
             <div class="md-form">
-              <textarea type="text" id="form76" class="md-textarea form-control" rows="3" name="messege" value="{{old('messege')}}"></textarea>
+              <textarea type="text" id="form76" class="md-textarea form-control" rows="3" name="message" value="{{old('message')}}"></textarea>
               <label for="form76">Ваше сообщение*</label>
             </div>
 
@@ -73,11 +73,13 @@
             <input class="form-control" type="text" placeholder="Капча*" name="captcha">
           </div>
         </div>
+
+        <div class="text-center text-md-left mb-5 mt-4">
+          <button type="submit" class="btn btn-rounded btn-orange-2 white-text">Отправить</button>
+        </div>
       </form>
 
-      <div class="text-center text-md-left mb-5 mt-4">
-        <button type="submit" class="btn btn-rounded btn-orange-2 white-text">Отправить</button>
-      </div>
+      
     </div>
     <!-- Grid column -->
 

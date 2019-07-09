@@ -5,6 +5,9 @@ Route::group(['middleware'=>'web'], function(){
 
 //  Route::auth();
 });
+
+// Отправка сообщения
+Route::post('/message', 'MessageController@message');
 Route::get('/get_captcha/{config?}', function (\Mews\Captcha\Captcha $captcha, $config = 'math') {
   return $captcha->src($config);
 });

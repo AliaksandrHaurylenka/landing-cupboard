@@ -60,7 +60,7 @@
                     <!-- Text -->
                     <p class="card-text">{!!$type2->description!!}</p>
                     <!-- Button -->
-                    <a href="#" class="btn btn-primary">Button</a>
+                    <a href="#kontakty" class="btn btn-primary">Заказать</a>
 
                   </div>
 

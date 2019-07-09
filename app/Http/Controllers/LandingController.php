@@ -27,7 +27,7 @@ class LandingController extends Controller
     // $slide = Slide::first();
     $slide = Slide::latest()->first();
     // $slide = Slide::all()->last();
-    $contacts = Contact::all();
+    $contacts = Contact::all()->first();
     // $catalogs = Catalog::all();
     $catalogs = Catalog::latest('id')->take(8)->get();
     $catalog2 = Catalog::where('type', '2 створки')->latest('id')->take(3)->get();

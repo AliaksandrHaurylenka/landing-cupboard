@@ -5,7 +5,9 @@ Route::group(['middleware'=>'web'], function(){
 
 //  Route::auth();
 });
-//Route::get('/', 'LandingController@index')->name('landing');
+Route::get('/get_captcha/{config?}', function (\Mews\Captcha\Captcha $captcha, $config = 'math') {
+  return $captcha->src($config);
+});
 
 // Authentication Routes...
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');

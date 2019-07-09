@@ -23,6 +23,8 @@
   <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
   <link rel="icon" href="{{ asset('favicon.ico') }}">
 
+  {{--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>--}}
+
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -92,12 +94,26 @@
   // Material Select Initialization
   $(document).ready(function() {
     $('.mdb-select').material_select();
+
+    //Обновление Капчи
+  $('#refresh').on('click',function(){
+      let captcha = $('img.captcha-img');
+      let config = captcha.data('refresh-config');
+      $.ajax({
+        method: 'GET',
+        url: '/get_captcha/' + config,
+      }).done(function (response) {
+        captcha.prop('src', response);
+      });
+    });
   });
 
   // MDB Lightbox Init
   $(function () {
     $("#mdb-lightbox-ui").load("{{ asset('assets/mdb-addons/mdb-lightbox-ui.html') }}");
   });
+
+
 </script>
 
 </body>

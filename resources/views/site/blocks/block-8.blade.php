@@ -64,6 +64,7 @@
 
         <div class="row">
           <div class="col-3">
+            <!-- https://itsolutionstuff.com/post/how-to-create-captcha-code-in-laravel-5example.html -->
             <a href="#" id="refresh"><img src="{{ Captcha::src('math') }}" alt="captcha" class="captcha-img" data-refresh-config="default"></a>
           </div>
         </div>

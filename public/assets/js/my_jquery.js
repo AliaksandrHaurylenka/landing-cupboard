@@ -1,18 +1,25 @@
 $(document).ready(function () {
+  $('#contactform').on('submit', function (e) {
+    e.preventDefault();
 
-  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-
-
-  //Обновление Капчи
-  $('#refresh').on('click',function(){
-      let captcha = $('img.captcha-img');
-      let config = captcha.data('refresh-config');
-      $.ajax({
-        method: 'GET',
-        url: '/get_captcha/' + config,
-      }).done(function (response) {
-        captcha.prop('src', response);
-      });
+    $.ajax({
+      type: 'post',
+      url: '/sendmail',
+      // url: '/message',
+      data: $('#contactform').serialize(),
+      success: function (data) {
+        if (data.result) {
+          $('#senderror').hide();
+          $('#sendmessage').show();
+        } else {
+          $('#senderror').show();
+          $('#sendmessage').hide();
+        }
+      },
+      error: function () {
+        $('#senderror').show();
+        $('#sendmessage').hide();
+      }
     });
-
+  });
 });

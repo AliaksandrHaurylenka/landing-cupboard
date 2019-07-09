@@ -12,7 +12,7 @@
     <!-- Grid column -->
     <div class="col-md-8 col-lg-9">
       <form action="/message" method="post">
-      {{ csrf_field() }}
+        {{ csrf_field() }}
         <!-- Grid row -->
         <div class="row">
           <!-- Grid column -->
@@ -54,7 +54,7 @@
           <div class="col-md-12">
 
             <div class="md-form">
-              <textarea type="text" id="form76" class="md-textarea form-control" rows="3" name="message" value="{{old('message')}}"></textarea>
+              <textarea type="text" id="form76" class="md-textarea form-control" rows="3" name="message"></textarea>
               <label for="form76">Ваше сообщение*</label>
             </div>
 
@@ -80,7 +80,40 @@
         </div>
       </form>
 
-      
+
+      {{--<form id="contactform" method="post" action="{{ route('ajax.contact.send') }}">--}}
+      {{--<form id="contactform" method="post" action="/sendmail">
+        {{ csrf_field() }}
+
+        <div id="sendmessage">
+          Ваше сообщение отправлено!
+        </div>
+        <div id="senderror">
+          При отправке сообщения произошла ошибка. Продублируйте его, пожалуйста, на почту администратора <span>{{ env('MAIL_ADMIN') }}</span>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 field">
+            <input type="text" name="name" placeholder="* Введите ваше имя" required />
+          </div>
+          <div class="col-lg-4 field">
+            <input type="email" name="email" placeholder="* Введите ваш email" required />
+          </div>
+          <div class="col-lg-4 field">
+            <input type="text" name="subject" placeholder="* Введите тему сообщения" required />
+          </div>
+          <div class="col-lg-12 margintop10 field">
+            <textarea rows="12" name="message" class="input-block-level" placeholder="* Ваше сообщение..." required></textarea>
+            <p>
+              <button class="btn btn-theme margintop10 pull-left" type="submit">Отправить</button>
+              <span class="pull-right margintop20">* Заполните, пожалуйста, все обязательные поля!</span>
+            </p>
+          </div>
+        </div>
+      </form>--}}
+
+
+
+
     </div>
     <!-- Grid column -->
 

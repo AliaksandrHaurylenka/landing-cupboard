@@ -38,6 +38,13 @@
       <div class="row smooth-scroll">
         <div class="col-md-12 text-center">
           <div class="text-white wow fadeInDown">
+            @if(session('status'))
+              <div class="alert alert-success mt-5" role="alert">
+                {{session('status')}}
+              </div>
+            @endif
+            @include('admin.errors')
+
             <h1 class="display-4 text-uppercase font-weight-bold">Шкафы-купе</h1>
             <hr class="hr-light my-4">
             <h4 class="h4-responsive subtext-header white-text mb-3">{!!$slide->text!!}</h4>

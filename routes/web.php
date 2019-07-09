@@ -8,9 +8,12 @@ Route::group(['middleware'=>'web'], function(){
 
 // Отправка сообщения
 Route::post('/message', 'MessageController@message');
-Route::get('/get_captcha/{config?}', function (\Mews\Captcha\Captcha $captcha, $config = 'math') {
+//Route::post('/message', 'MessageController@send');
+/*Route::get('/get_captcha/{config?}', function (\Mews\Captcha\Captcha $captcha, $config = 'math') {
   return $captcha->src($config);
-});
+});*/
+//Route::post('/sendmail', 'Ajax\ContactController@send')->name('ajax.contact.send');
+//Route::post('/sendmail', 'Ajax\ContactController@send');
 
 // Authentication Routes...
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');

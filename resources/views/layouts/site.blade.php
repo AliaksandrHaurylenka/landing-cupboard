@@ -62,12 +62,12 @@
 
 <!-- Navigation & Intro -->
 <header>
-  @if(session('status'))
+  {{--@if(session('status'))
   <div class="alert alert-success mt-5" role="alert">
     {{session('status')}}
   </div>
   @endif
-  @include('admin.errors')
+  @include('admin.errors')--}}
 
   @yield('head')
 </header>
@@ -87,7 +87,8 @@
 
 <!--  SCRIPTS  -->
 <script src="{{ asset('assets/js/app.js') }}"></script>
-<script type="text/javascript" src="{{ asset('assets/js/mdb.min.js') }}"></script>
+<script src="{{ asset('assets/js/mdb.min.js') }}"></script>
+{{--<script src="{{ asset('assets/js/my_jquery.js') }}"></script>--}}
 
 <script>
   //Animation init
@@ -101,18 +102,6 @@
   // Material Select Initialization
   $(document).ready(function() {
     $('.mdb-select').material_select();
-
-    //Обновление Капчи
-  $('#refresh').on('click',function(){
-      let captcha = $('img.captcha-img');
-      let config = captcha.data('refresh-config');
-      $.ajax({
-        method: 'GET',
-        url: '/get_captcha/' + config,
-      }).done(function (response) {
-        captcha.prop('src', response);
-      });
-    });
   });
 
   // MDB Lightbox Init

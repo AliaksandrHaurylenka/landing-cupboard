@@ -7,11 +7,11 @@
     <!-- Grid column -->
     <div class="col-xl-4 col-lg-4 mt-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
       <!-- About -->
-      <h5 class="text-uppercase mb-4"><strong>ABOUT COMPANY</strong></h5>
+      <h5 class="text-uppercase mb-4"><strong>о компании</strong></h5>
 
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+      <p>«Vash Shkaf» - это компания, предлагающая широкий ассортиментный ряд шкафов-купе, - стандартных или выполненных по индивидуальному заказу.</p>
 
-      <p class="">Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
+      <p>Мы разрабатываем дизайн, производим и осуществляем монтаж шкафов всевозможных форм и размеров, оптимально впишущихся в Ваш интерьер и прослужащих долгие и долгие годы.</p>
 
       <div class="footer-socials">
 
@@ -34,17 +34,7 @@
     <!-- Grid column -->
     <div class="col-xl-3 ml-auto col-lg-4 mt-2 mb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
       <!-- Search -->
-      <h5 class="text-uppercase mb-4"><strong>Search something</strong></h5>
-
-      <ul class="footer-search list-unstyled">
-        <li>
-          <form class="search-form" role="search">
-            <div class="md-form waves-effect">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-          </form>
-        </li>
-      </ul>
+      <h5 class="text-uppercase mb-4"><strong>контакты</strong></h5>
 
       <!-- Info -->
       <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
@@ -61,10 +51,10 @@
     <div class="col-xl-3 ml-auto col-lg-4 mt-2 mb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
 
       <!-- Title -->
-      <h5 class="text-uppercase mb-4"><strong>Opening hours</strong></h5>
+      <h5 class="text-uppercase mb-4"><strong>Время работы</strong></h5>
 
       <!-- Opening hours table -->
-      <table class="table footer-table text-center">
+      <table class="table footer-table white-text table-footer">
         <tbody>
         <tr>
           <td>Mon - Thu:</td>

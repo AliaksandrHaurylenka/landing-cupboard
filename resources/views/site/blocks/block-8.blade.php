@@ -19,7 +19,7 @@
           <div class="col-md-6">
             <div class="md-form">
               <div class="md-form">
-                <input type="text" id="form41" class="form-control" name="name" value="{{old('name')}}">
+                <input type="text" id="form41" class="form-control" name="name" value="{{old('name')}}" required>
                 <label for="form41" class="">Ваше имя*</label>
               </div>
             </div>
@@ -29,7 +29,7 @@
           <div class="col-md-6">
             <div class="md-form">
               <div class="md-form">
-                <input type="email" id="form52" class="form-control" name="email" value="{{old('email')}}">
+                <input type="email" id="form52" class="form-control" name="email" value="{{old('email')}}" required>
                 <label for="form52" class="">Email*</label>
               </div>
             </div>
@@ -54,7 +54,7 @@
           <div class="col-md-12">
 
             <div class="md-form">
-              <textarea type="text" id="form76" class="md-textarea form-control" rows="3" name="message"></textarea>
+              <textarea type="text" id="form76" class="md-textarea form-control" rows="3" name="message" required>{{old('message')}}</textarea>
               <label for="form76">Ваше сообщение*</label>
             </div>
 
@@ -65,13 +65,13 @@
         <div class="row">
           <div class="col-3">
             <!-- https://itsolutionstuff.com/post/how-to-create-captcha-code-in-laravel-5example.html -->
-            <a href="#" id="refresh"><img src="{{ Captcha::src('math') }}" alt="captcha" class="captcha-img" data-refresh-config="default"></a>
+            <img src="{{ Captcha::src('math') }}" alt="captcha" class="captcha-img" data-refresh-config="default">
           </div>
         </div>
 
         <div class="row">
           <div class="col md-form">
-            <input class="form-control" type="text" placeholder="Капча*" name="captcha">
+            <input class="form-control" type="text" placeholder="Капча*" name="captcha" required>
           </div>
         </div>
 

@@ -1,18 +1,19 @@
 <?php
 
-namespace App\Mail;
+  namespace App\Mail;
 
-use Illuminate\Bus\Queueable;
-use Illuminate\Mail\Mailable;
-use Illuminate\Queue\SerializesModels;
-use Illuminate\Contracts\Queue\ShouldQueue;
+  use Illuminate\Bus\Queueable;
+  use Illuminate\Mail\Mailable;
+  use Illuminate\Queue\SerializesModels;
+  use Illuminate\Contracts\Queue\ShouldQueue;
 
-class MessageMail extends Mailable
-{
+  class MessageMail extends Mailable
+  {
     use Queueable, SerializesModels;
 
-    
+
     public $data;
+
     /**
      * Create a new message instance.
      *
@@ -20,7 +21,7 @@ class MessageMail extends Mailable
      */
     public function __construct($data)
     {
-        $this->data = $data;
+      $this->data = $data;
     }
 
     /**
@@ -30,10 +31,10 @@ class MessageMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.feedback')
-            ->from($this->data['email'], $this->data['name'])
-            ->to(env('MAIL_ADMIN'))
-            ->bcc(env('MAIL_USER_2'))
-            ->subject('Сообщение от пользователя');
+      return $this->markdown('emails.feedback')
+        ->from($this->data['email'], $this->data['name'])
+        ->to(env('MAIL_ADMIN'))
+        ->bcc(env('MAIL_USER_2'))
+        ->subject('Сообщение от пользователя');
     }
-}
+  }

@@ -1,5 +1,4 @@
 <!-- Streak -->
-<!-- <div class="streak streak-photo streak-long-2" style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20%2818%29.jpg')"> -->
 <div class="streak streak-photo streak-long-2" style="background-image:url({{asset('img/shkaf-kupe-v-prihozhuyu-s-centralnym-zerkalom.jpg')}})">
   <div class="mask flex-center rgba-black-strong">
     <div class="container">
@@ -11,29 +10,29 @@
 
         <!--First column-->
         <div class="col-md-3 mb-2">
-          <h1 class="amber-text mb-1 font-weight-bold">+950</h1>
-          <p>Happy clients</p>
+          <h1 class="amber-text mb-1 font-weight-bold">+120</h1>
+          <p>Счастливых клиентов</p>
         </div>
         <!--/First column-->
 
         <!--Second column-->
         <div class="col-md-3 mb-2">
-          <h1 class="amber-text mb-1 font-weight-bold">+150</h1>
-          <p>Projects completed</p>
+          <h1 class="amber-text mb-1 font-weight-bold">+75</h1>
+          <p>Завершенных работ</p>
         </div>
         <!--/Second column-->
 
         <!--Third column-->
         <div class="col-md-3 mb-2">
-          <h1 class="amber-text mb-1 font-weight-bold">+85</h1>
-          <p>Winning awards</p>
+          <h1 class="amber-text mb-1 font-weight-bold">+11</h1>
+          <p>Полученных наград</p>
         </div>
         <!--/Third column-->
 
         <!--Fourth column-->
         <div class="col-md-3">
           <h1 class="amber-text mb-1 font-weight-bold">+246</h1>
-          <p>Cups of coffee</p>
+          <p>Чашек кофе</p>
         </div>
         <!--/Fourth column-->
 

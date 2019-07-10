@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `catalogs` (
   KEY `catalogs_deleted_at_index` (`deleted_at`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing-cupboard.catalogs: ~6 rows (приблизительно)
+-- Дамп данных таблицы landing-cupboard.catalogs: ~8 rows (приблизительно)
 /*!40000 ALTER TABLE `catalogs` DISABLE KEYS */;
 INSERT INTO `catalogs` (`id`, `photo`, `title`, `description`, `type`, `price`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%281%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 3.00, NULL, '2019-07-08 10:29:51', NULL),
@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS `contacts` (
 -- Дамп данных таблицы landing-cupboard.contacts: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `contacts` DISABLE KEYS */;
 INSERT INTO `contacts` (`id`, `first_name`, `last_name`, `phone`, `phone2`, `email`, `address`, `deleted_at`, `created_at`, `updated_at`) VALUES
-	(1, NULL, NULL, '+ 375 29 374 91 59 (Vel)', NULL, 'aliaksandr.haurylenka@gmail.com', 'г. Гомель, пл. Привокзальная, 1/719', NULL, '2019-07-07 06:45:27', '2019-07-07 06:45:27');
+	(1, NULL, NULL, '+ 375 29 374 91 59 (Vel)', NULL, 'vashshkaf2019@gmail.com', 'г. Гомель, пл. Привокзальная, 1/719', NULL, '2019-07-07 06:45:27', '2019-07-09 08:14:32');
 /*!40000 ALTER TABLE `contacts` ENABLE KEYS */;
 
 -- Дамп структуры для таблица landing-cupboard.menus
@@ -148,7 +148,7 @@ CREATE TABLE IF NOT EXISTS `roles` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing-cupboard.roles: ~0 rows (приблизительно)
+-- Дамп данных таблицы landing-cupboard.roles: ~2 rows (приблизительно)
 /*!40000 ALTER TABLE `roles` DISABLE KEYS */;
 INSERT INTO `roles` (`id`, `title`, `created_at`, `updated_at`) VALUES
 	(1, 'Administrator (can create other users)', '2019-07-06 15:25:01', '2019-07-06 15:25:01'),
@@ -165,12 +165,12 @@ CREATE TABLE IF NOT EXISTS `slides` (
   `deleted_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `slides_deleted_at_index` (`deleted_at`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing-cupboard.slides: ~0 rows (приблизительно)
+-- Дамп данных таблицы landing-cupboard.slides: ~1 rows (приблизительно)
 /*!40000 ALTER TABLE `slides` DISABLE KEYS */;
 INSERT INTO `slides` (`id`, `photo`, `text`, `created_at`, `updated_at`, `deleted_at`) VALUES
-	(1, '1562480749-5-1.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '2019-07-07 06:25:50', '2019-07-08 07:38:06', NULL);
+	(1, '1562480749-5-1.jpg', '', '2019-07-07 06:25:50', '2019-07-08 07:38:06', NULL);
 /*!40000 ALTER TABLE `slides` ENABLE KEYS */;
 
 -- Дамп структуры для таблица landing-cupboard.users

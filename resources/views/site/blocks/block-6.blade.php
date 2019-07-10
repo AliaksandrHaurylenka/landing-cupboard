@@ -28,7 +28,7 @@
           @foreach($catalogs as $catalog)
             <figure class="col-md-3">
               <a href="{{$catalog->photo}}" data-size="1600x1067">
-                <img src="{{$catalog->photo}}" class="img-fluid z-depth-1">
+                <img src="{{$catalog->photo}}" class="img-fluid z-depth-1" alt="{{$catalog->title}}">
               </a>
             </figure>
           @endforeach  

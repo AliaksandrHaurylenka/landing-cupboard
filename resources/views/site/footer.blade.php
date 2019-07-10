@@ -9,20 +9,20 @@
       <!-- About -->
       <h5 class="text-uppercase mb-4"><strong>о компании</strong></h5>
 
-      <p>«Vash Shkaf» - это компания, предлагающая широкий ассортиментный ряд шкафов-купе, - стандартных или выполненных по индивидуальному заказу.</p>
+      <p>«Vash Shkaff» - это компания, предлагающая широкий ассортиментный ряд шкафов-купе, - стандартных или выполненных по индивидуальному заказу.</p>
 
       <p>Мы разрабатываем дизайн, производим и осуществляем монтаж шкафов всевозможных форм и размеров, оптимально впишущихся в Ваш интерьер и прослужащих долгие и долгие годы.</p>
 
       <div class="footer-socials">
 
         <!-- Facebook -->
-        <a type="button" class="btn-floating orange"><i class="fab fa-facebook-f"></i></a>
+        <a href="" class="btn-floating orange"><i class="fab fa-facebook-f"></i></a>
         <!-- Dribbble -->
-        <a type="button" class="btn-floating orange"><i class="fab fa-dribbble"></i></a>
+        <a href="" class="btn-floating orange"><i class="fab fa-dribbble"></i></a>
         <!-- Twitter -->
-        <a type="button" class="btn-floating orange"><i class="fab fa-twitter"></i></a>
+        <a href="" class="btn-floating orange"><i class="fab fa-twitter"></i></a>
         <!-- Google + -->
-        <a type="button" class="btn-floating orange"><i class="fab fa-google-plus-g"></i></a>
+        <a href="" class="btn-floating orange"><i class="fab fa-google-plus-g"></i></a>
         <!-- Linkedin -->
 
       </div>
@@ -37,10 +37,10 @@
       <h5 class="text-uppercase mb-4"><strong>контакты</strong></h5>
 
       <!-- Info -->
-      <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-      <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-      <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-      <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+      <p><i class="fas fa-home mr-3"></i> {{$contacts->address}}</p>
+      <p><a href="mailto:{{$contacts->email}}" target="_blank"><i class="fas fa-envelope mr-3"></i> {{$contacts->email}}</a></p>
+      <p><a href="tel:{{$contacts->phone}}"><i class="fas fa-phone mr-3"></i> {{$contacts->phone}}</a></p>
+      <p><a href="tel:{{$contacts->phone}}"><i class="fas fa-print mr-3"></i> {{$contacts->phone}}</a></p>
 
     </div>
     <!-- Grid column -->

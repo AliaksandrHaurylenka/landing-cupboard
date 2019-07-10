@@ -54,7 +54,7 @@
           <div class="col-md-12">
 
             <div class="md-form">
-              <textarea type="text" id="form76" class="md-textarea form-control" rows="3" name="message" required>{{old('message')}}</textarea>
+              <textarea id="form76" class="md-textarea form-control" rows="3" name="message" required>{{old('message')}}</textarea>
               <label for="form76">Ваше сообщение*</label>
             </div>
 
@@ -93,13 +93,13 @@
         </div>
         <div class="row">
           <div class="col-lg-4 field">
-            <input type="text" name="name" placeholder="* Введите ваше имя" required />
+            <input type="text" name="name" placeholder="* Введите ваше имя" required>
           </div>
           <div class="col-lg-4 field">
-            <input type="email" name="email" placeholder="* Введите ваш email" required />
+            <input type="email" name="email" placeholder="* Введите ваш email" required>
           </div>
           <div class="col-lg-4 field">
-            <input type="text" name="subject" placeholder="* Введите тему сообщения" required />
+            <input type="text" name="subject" placeholder="* Введите тему сообщения" required>
           </div>
           <div class="col-lg-12 margintop10 field">
             <textarea rows="12" name="message" class="input-block-level" placeholder="* Ваше сообщение..." required></textarea>
@@ -120,20 +120,28 @@
     <!-- Grid column -->
     <div class="col-md-4 col-lg-3">
       <ul class="text-center list-unstyled float-md-right">
-        <li><i class="fas fa-map-marker-alt fa-2x"></i>
-          <p>{{$contacts->address}}</p>
+        <li>
+          <a href="" class="a-address-contacts">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            <span class="d-block">{{$contacts->address}}</span>
+          </a>
         </li>
 
-        <a href="tel:{{$contacts->phone}}" class="a-address-contacts">
-        <li><i class="fas fa-phone fa-2x"></i>
-          <p>{{$contacts->phone}}</p>
+        
+        <li class="mt-3">
+          <a href="tel:{{$contacts->phone}}" class="a-address-contacts">
+            <i class="fas fa-phone fa-2x"></i>
+            <span class="d-block">{{$contacts->phone}}</span>
+          </a>
         </li>
 
-        <a href="mailto:{{$contacts->email}}" class="a-address-contacts" target="_blank">
-          <li><i class="fas fa-envelope fa-2x"></i>
-            <p>{{$contacts->email}}</p>
-          </li>
-        </a>
+        
+        <li class="mt-3">
+          <a href="mailto:{{$contacts->email}}" class="a-address-contacts" target="_blank">
+            <i class="fas fa-envelope fa-2x"></i>
+            <span class="d-block">{{$contacts->email}}</span>
+          </a>
+        </li>
       </ul>
     </div>
     <!-- Grid column -->

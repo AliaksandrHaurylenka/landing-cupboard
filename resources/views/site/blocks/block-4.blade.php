@@ -46,7 +46,7 @@
 
                   <!-- Card image -->
                   <div class="view overlay z-depth-1 zoom">
-                    <img class="card-img-top img-fluid" src="{{$type2->photo}}" alt="{{$type2->title}}">
+                    <img class="card-img-top img-fluid" src="{{asset('img/'.$type2->photo)}}" alt="{{$type2->title}}">
                     <a href="#!">
                       <div class="mask rgba-white-slight"></div>
                     </a>
@@ -94,7 +94,7 @@
 
                   <!-- Card image -->
                   <div class="view overlay z-depth-1 zoom">
-                    <img class="card-img-top img-fluid" src="{{$type3->photo}}" alt="{{$type3->title}}">
+                    <img class="card-img-top img-fluid" src="{{asset('img/'.$type3->photo)}}" alt="{{$type3->title}}">
                     <a href="#!">
                       <div class="mask rgba-white-slight"></div>
                     </a>

@@ -12,7 +12,8 @@
   <!-- Section: Portfolio -->
 </div>
 
-<div class="container-fluid">
+<!-- <div class="container-fluid"> -->
+<div class="container">
 
   <div class="row mb-5 wow fadeIn" data-wow-delay="0.4s">
 
@@ -25,13 +26,23 @@
       <div class="mdb-lightbox">
 
         @if(isset($catalogs))
-          @foreach($catalogs as $catalog)
+          {{--@foreach($catalogs as $catalog)
             <figure class="col-md-3">
-              <a href="{{$catalog->photo}}" data-size="1600x1067">
-                <img src="{{$catalog->photo}}" class="img-fluid z-depth-1" alt="{{$catalog->title}}">
+              <a href="{{asset('img/'.$catalog->photo)}}" data-size="1600x1067">
+                <img src="{{asset('img/'.$catalog->photo)}}" class="img-fluid z-depth-1" alt="{{$catalog->title}}">
               </a>
             </figure>
-          @endforeach  
+          @endforeach--}}
+
+          <div class="gallery">
+            @foreach($catalogs as $catalog)         
+              <figure class="mb-3 pics animation all 1">
+                <a href="{{asset('img/'.$catalog->photo)}}" data-size="1600x1067">
+                  <img src="{{asset('img/'.$catalog->photo)}}" class="img-fluid z-depth-1" alt="{{$catalog->title}}">
+                </a>
+              </figure>
+            @endforeach
+          </div>
         @endif
       </div>
       <!-- Full width lightbox -->

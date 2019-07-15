@@ -44,6 +44,20 @@
       </div>
       <div class="row">
         <div class="col-xs-12 form-group">
+          {!! Form::label('type', trans('quickadmin.catalog.fields.type').'*', ['class' => 'control-label']) !!}
+          {{Form::select('type',
+              ['2 створки' => '2-х секционные', '3 створки' => '3-х секционные'])
+          }}
+          <p class="help-block"></p>
+          @if($errors->has('type'))
+            <p class="help-block">
+              {{ $errors->first('type') }}
+            </p>
+          @endif
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 form-group">
           {!! Form::label('description', trans('quickadmin.catalog.fields.description').'', ['class' => 'control-label']) !!}
           {!! Form::text('description', old('description'), ['class' => 'form-control', 'placeholder' => '']) !!}
           <p class="help-block"></p>

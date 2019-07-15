@@ -56,6 +56,7 @@ return [
       'title' => 'Название',
       'description' => 'Описание',
       'price' => 'Цена',
+      'type' => 'Тип',
     ],
   ],
 

@@ -26,6 +26,7 @@ class UpdateCatalogsRequest extends FormRequest
             
             'photo' => 'nullable|mimes:png,jpg,jpeg,gif',
             'title' => 'required',
+            'type' => 'required',
         ];
     }
 }

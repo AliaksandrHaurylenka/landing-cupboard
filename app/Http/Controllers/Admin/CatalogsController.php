@@ -43,6 +43,7 @@ class CatalogsController extends Controller
                 'catalogs.id',
                 'catalogs.photo',
                 'catalogs.title',
+                'catalogs.type',
                 'catalogs.description',
                 'catalogs.price',
             ]);
@@ -64,6 +65,9 @@ class CatalogsController extends Controller
             });
             $table->editColumn('title', function ($row) {
                 return $row->title ? $row->title : '';
+            });
+            $table->editColumn('type', function ($row) {
+                return $row->type ? $row->type : '';
             });
             $table->editColumn('description', function ($row) {
                 return $row->description ? $row->description : '';

@@ -17,7 +17,7 @@ class Catalog extends Model
 {
     use SoftDeletes;
 
-    protected $fillable = ['photo', 'title', 'description', 'price'];
+    protected $fillable = ['photo', 'title', 'type', 'description', 'price'];
     protected $hidden = [];
     
     

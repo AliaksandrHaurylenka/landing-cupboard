@@ -35,6 +35,7 @@
 
                         <th>@lang('quickadmin.catalog.fields.photo')</th>
                         <th>@lang('quickadmin.catalog.fields.title')</th>
+                        <th>@lang('quickadmin.catalog.fields.type')</th>
                         <th>@lang('quickadmin.catalog.fields.description')</th>
                         <th>@lang('quickadmin.catalog.fields.price')</th>
                         @if( request('show_deleted') == 1 )
@@ -62,6 +63,7 @@
                 @endif
                 @endcan{data: 'photo', name: 'photo'},
                 {data: 'title', name: 'title'},
+                {data: 'type', name: 'type'},
                 {data: 'description', name: 'description'},
                 {data: 'price', name: 'price'},
                 

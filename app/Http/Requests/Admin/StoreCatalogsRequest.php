@@ -25,6 +25,7 @@ class StoreCatalogsRequest extends FormRequest
         return [
             'photo' => 'nullable|mimes:png,jpg,jpeg,gif',
             'title' => 'required',
+            'type' => 'required',
         ];
     }
 }

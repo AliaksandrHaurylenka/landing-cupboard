@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `catalogs` (
   `deleted_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `catalogs_deleted_at_index` (`deleted_at`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Дамп данных таблицы landing-cupboard.catalogs: ~8 rows (приблизительно)
 /*!40000 ALTER TABLE `catalogs` DISABLE KEYS */;
@@ -58,7 +58,13 @@ INSERT INTO `catalogs` (`id`, `photo`, `title`, `description`, `type`, `price`, 
 	(5, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%285%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 3.00, NULL, '2019-07-08 10:31:01', NULL),
 	(6, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%284%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 3.00, NULL, '2019-07-08 10:31:14', NULL),
 	(7, 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(137).jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 4.00, NULL, NULL, NULL),
-	(8, 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 4.00, NULL, NULL, NULL);
+	(8, 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 4.00, NULL, NULL, NULL),
+	(11, '1563178252-photo_2019-07-15_09-53-31.jpg', 'Велоспорт', 'Заместитель директора СДЮШОР микрорайона Костюковка города Гомеля', '2 створки', 3.00, '2019-07-15 07:30:22', '2019-07-15 08:10:52', NULL),
+	(12, '1563178289-photo_2019-07-15_09-53-39.jpg', 'Плавание', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 3.00, '2019-07-15 08:11:29', '2019-07-15 08:11:29', NULL),
+	(13, '1563178307-photo_2019-07-15_09-53-42.jpg', 'Борьба', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 5.00, '2019-07-15 08:11:47', '2019-07-15 08:11:47', NULL),
+	(14, '1563178324-photo_2019-07-15_09-52-40.jpg', 'Костюковка', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 3.00, '2019-07-15 08:12:04', '2019-07-15 08:12:34', NULL),
+	(15, '1563178347-photo_2019-07-15_09-53-36.jpg', 'Борьба', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 3.00, '2019-07-15 08:12:27', '2019-07-15 08:12:27', NULL),
+	(16, '1563178371-photo_2019-07-15_09-53-44.jpg', 'Плавание', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '3 створки', 5.00, '2019-07-15 08:12:51', '2019-07-15 08:12:51', NULL);
 /*!40000 ALTER TABLE `catalogs` ENABLE KEYS */;
 
 -- Дамп структуры для таблица landing-cupboard.contacts

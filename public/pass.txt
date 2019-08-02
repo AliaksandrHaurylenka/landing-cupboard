@@ -6,6 +6,6 @@ pass: 16062019Qw
 
 
 ftp:
-ftp-ρεπβεπ: s9.open.by
+ftp-ΡΠµΡ€Π²ΠµΡ€: s9.open.by
 login: potolkuemby
 pass: mHC086Tu7I

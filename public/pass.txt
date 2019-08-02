@@ -1,0 +1,11 @@
+vashshkaf
+
+domain.by
+login: artpotolki2018
+pass: 16062019Qw
+
+
+ftp:
+ftp-сервер: s9.open.by
+login: potolkuemby
+pass: mHC086Tu7I

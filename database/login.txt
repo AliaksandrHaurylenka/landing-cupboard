@@ -1,0 +1,6 @@
+vashskaff.by
+
+login: artpotolki2018
+pass: 16062019Qw
+
+host: domain.by

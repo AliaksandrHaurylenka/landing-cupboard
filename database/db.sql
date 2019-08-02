@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `catalogs` (
   KEY `catalogs_deleted_at_index` (`deleted_at`)
 ) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing-cupboard.catalogs: ~8 rows (приблизительно)
+-- Дамп данных таблицы landing-cupboard.catalogs: ~13 rows (приблизительно)
 /*!40000 ALTER TABLE `catalogs` DISABLE KEYS */;
 INSERT INTO `catalogs` (`id`, `photo`, `title`, `description`, `type`, `price`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'https://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20%281%29.jpg', 'title', 'Some quick example text to build on the card title and make up the bulk of the card\'s content.', '2 створки', 3.00, NULL, '2019-07-08 10:29:51', NULL),

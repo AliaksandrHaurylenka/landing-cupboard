@@ -16,6 +16,7 @@
 
 @include('site.blocks.block-5')
 @include('site.blocks.block-6')
+@include('site.blocks.installment-plan')
 @include('site.blocks.block-7')
 
 <div class="container">

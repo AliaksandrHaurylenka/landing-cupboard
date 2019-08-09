@@ -1,6 +1,6 @@
 <div class="container">
   <!-- Section: Portfolio -->
-  <section id="" class="section mb-3 wow fadeIn">
+  <section id="rassrochka" class="section mb-3 wow fadeIn">
 
     <!-- Section heading -->
     <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5" data-wow-delay="0.2s">Рассрочка</h3>

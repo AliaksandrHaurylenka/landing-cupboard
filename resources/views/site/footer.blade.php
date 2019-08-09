@@ -83,7 +83,7 @@
 <!-- Copyright -->
 <div class="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="0.3s">
   <div class="container-fluid">
-    © 2019 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+    © 2019 Copyright: <span class="white-text">Vash Shkaff</span>
   </div>
 </div>
 <!-- Copyright -->

@@ -16,9 +16,9 @@
     <!--Card image-->
     <div class="view overlay">
       <img class="card-img-top" src="{{asset('img/cards/belkart-standart1.jpg')}}" class="img-fluid" alt="">
-      <a>
+      <span>
         <div class="mask rgba-white-slight"></div>
-      </a>
+      </span>
     </div>
 
     <!--Card content-->
@@ -37,9 +37,9 @@
     <!--Card image-->
     <div class="view overlay">
       <img class="card-img-top" src="{{asset('img/cards/halva.png')}}" alt="">
-      <a>
+      <span>
         <div class="mask rgba-white-slight"></div>
-      </a>
+      </span>
     </div>
 
     <!--Card content-->
@@ -47,7 +47,7 @@
       <!--Title-->
       <h5 class="card-title h5-responsive">Карта «Халва»</h5>
       <!--Text-->
-      <p class="card-text">Карта «Халва» это 0% за пользование рассрочкой, 0 руб. на первоначальный взнос и никаких переплат!</p>
+      <p class="card-text">Карта «Халва» это 0% за пользование рассрочкой, 0 руб. первоначальный взнос и никаких переплат!</p>
     </div>
   </div>
   <!-- Card -->
@@ -57,9 +57,9 @@
     <!--Card image-->
     <div class="view overlay">
       <img class="card-img-top" src="{{asset('img/cards/belgazprom.png')}}" alt="">
-      <a>
+      <span>
         <div class="mask rgba-white-slight"></div>
-      </a>
+      </span>
     </div>
 
     <!--Card content-->
@@ -68,7 +68,7 @@
       <!--Title-->
       <h5 class="card-title h5-responsive">«Карта покупок»</h5>
       <!--Text-->
-      <p class="card-text">Механизм «Карты покупок» прост — оплачивая услуги на сумму до 5000 Вы получаете рассрочку на 6 месяца.</p>
+      <p class="card-text">Механизм «Карты покупок» прост — оплачивая услуги на сумму до 5000 Вы получаете рассрочку на 6 месяцев.</p>
     </div>
   </div>
   <!-- Card -->
@@ -78,9 +78,9 @@
     <!--Card image-->
     <div class="view overlay">
       <img class="card-img-top" src="{{asset('img/cards/magnit.png')}}" alt="">
-      <a>
+      <span>
         <div class="mask rgba-white-slight"></div>
-      </a>
+      </span>
     </div>
 
     <!--Card content-->

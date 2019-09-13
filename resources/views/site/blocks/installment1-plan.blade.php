@@ -1,9 +1,8 @@
-<div class="container">
   <!-- Section: Portfolio -->
   <section id="rassrochka" class="section mb-3 wow fadeIn">
 
     <!-- Section heading -->
-    <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5" data-wow-delay="0.2s">Рассрочка</h3>
+    <h3 class="text-center text-uppercase font-weight-bold mt-5" data-wow-delay="0.2s">Рассрочка</h3>
 
     <!-- Section description -->
     <p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">В компании "VashShkaff" Вы всегда сможете заказать шкаф в рассрочку на самых выгодных условиях!</p>
@@ -25,7 +24,7 @@
     <!--Card content-->
     <div class="card-body text-center">
       <!--Title-->
-      <h5 class="card-title">«Беларусбанк»</h5>
+      <h5 class="card-title h5-responsive">«Беларусбанк»</h5>
       <!--Text-->
       <p class="card-text">Без процентов и переплат! Можно офррмить на 3, 6, 9, 12 месяцев.</p>
     </div>
@@ -101,7 +100,4 @@
 
   </section>
   <!-- Section: Portfolio -->
-</div>
-
-
 </div>

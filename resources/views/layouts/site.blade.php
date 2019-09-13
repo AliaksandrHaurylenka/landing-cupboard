@@ -34,7 +34,7 @@
     body,
     header,
     .jarallax {
-      height: 100%;
+      /*height: 100%;*/
     }
 
     /*@media (min-width: 560px) and (max-width: 767px) {*/
@@ -43,7 +43,7 @@
       body,
       header,
       .jarallax {
-        height: 500px;
+        /*height: 500px;*/
       }
     }
 

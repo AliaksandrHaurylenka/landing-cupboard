@@ -1,5 +1,7 @@
 {{-- @include('site.blocks.installment-plan') --}}
-@include('site.blocks.installment1-plan')
+<div class="container-fluid">
+	@include('site.blocks.installment1-plan')
+</div>
 
 <div class="container">
   @include('site.blocks.block-1')

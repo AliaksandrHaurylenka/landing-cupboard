@@ -56,9 +56,9 @@
                   <div class="card-body text-center">
 
                     <!-- Title -->
-                    <h4 class="card-title">{!!$type2->title!!}</h4>
+                    {{--<h4 class="card-title">{!!$type2->title!!}</h4>
                     <!-- Text -->
-                    <p class="card-text">{!!$type2->description!!}</p>
+                    <p class="card-text">{!!$type2->description!!}</p>--}}
                     <!-- Button -->
                     <a href="#kontakty" class="btn btn-primary">Заказать</a>
 
@@ -104,11 +104,11 @@
                   <div class="card-body text-center">
 
                     <!-- Title -->
-                    <h4 class="card-title">{!!$type3->title!!}</h4>
+                    {{--<h4 class="card-title">{!!$type3->title!!}</h4>
                     <!-- Text -->
-                    <p class="card-text">{!!$type3->description!!}</p>
+                    <p class="card-text">{!!$type3->description!!}</p>--}}
                     <!-- Button -->
-                    <a href="#" class="btn btn-primary">Button</a>
+                    <a href="#" class="btn btn-primary">Заказать</a>
 
                   </div>
 
@@ -117,7 +117,6 @@
 
               </div>
               <!-- Grid column -->
-
             @endforeach  
           @endif
         </div>

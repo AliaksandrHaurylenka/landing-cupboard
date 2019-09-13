@@ -4,7 +4,7 @@
   <!-- Section heading -->
   <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-4 wow fadeIn" data-wow-delay="0.2s">Наши преимущества</h3>
   <!-- Section description -->
-  <p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Шкаф-купе вариант мебели, который дает максимум места для хранения одежды, при этом не отнимает минимум жилого пространства. Такие шкафы приобретают большую востребованность благодаря высокой функциональности и надежности.</p>
+  {{--<p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Шкаф-купе вариант мебели, который дает максимум места для хранения одежды, при этом не отнимает минимум жилого пространства. Такие шкафы приобретают большую востребованность благодаря высокой функциональности и надежности.</p>--}}
 
 
   <!-- Grid row -->

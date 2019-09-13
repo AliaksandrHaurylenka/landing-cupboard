@@ -45,7 +45,7 @@
     <!--Card content-->
     <div class="card-body text-center">
       <!--Title-->
-      <h5 class="card-title">Карта «Халва»</h5>
+      <h5 class="card-title h5-responsive">Карта «Халва»</h5>
       <!--Text-->
       <p class="card-text">Карта «Халва» это 0% за пользование рассрочкой, 0 руб. на первоначальный взнос и никаких переплат!</p>
     </div>
@@ -66,7 +66,7 @@
     <div class="card-body  text-center">
 
       <!--Title-->
-      <h5 class="card-title">«Карта покупок»</h5>
+      <h5 class="card-title h5-responsive">«Карта покупок»</h5>
       <!--Text-->
       <p class="card-text">Механизм «Карты покупок» прост — оплачивая услуги на сумму до 5000 Вы получаете рассрочку на 6 месяца.</p>
     </div>
@@ -87,7 +87,7 @@
     <div class="card-body  text-center">
 
       <!--Title-->
-      <h5 class="card-title">карта «МАГНИТ»</h5>
+      <h5 class="card-title h5-responsive">карта «МАГНИТ»</h5>
       <!--Text-->
       <p class="card-text">Первые 4 месяца рассрочки — без процентов, не требует первоначального взноса, возможно досрочное погашение.</p>
     </div>
